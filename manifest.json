@@ -1,0 +1,11 @@
+{
+  "name": "IVLE Helper",
+  "version": "1.0",
+  "description": "IVLE Helper",
+  "content_scripts" : [
+    {
+      "matches" : [ "http://ivle.nus.edu.sg/workbin/workbin.aspx?*" ],
+      "js" : [ "foo.js" ]
+    }
+  ]
+}
